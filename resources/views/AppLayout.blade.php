@@ -25,7 +25,8 @@
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
     <!-- header Started -->
-		@include('Includes.header');
+		<!-- @include('Includes.header'); -->
+        @yield('header');
 	<!-- Header Ended -->
 
     <!-- header Started -->
@@ -57,7 +58,7 @@
 	<!-- Blog Ended -->
 
     <!-- hireme Started -->
-     @include('FrontEnd.hireme');
+        @include('FrontEnd.hireme');
     <!-- hireme Ended -->
 
     <!-- contact Started -->
@@ -65,7 +66,8 @@
     <!-- contact Ended -->
 		
     <!-- Footer Started -->
-		@include('Includes.footer');
+		<!-- @include('Includes.footer'); -->
+        @yield('footer');
 	<!-- Footer Ended -->
     
   

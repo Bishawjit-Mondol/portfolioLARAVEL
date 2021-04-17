@@ -1,3 +1,4 @@
+@section('header')
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html"><span>B</span>ishawjit</a>
@@ -44,4 +45,5 @@
 					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
 				</a>
 			</div>
-    </section>
+</section>
+@endsection
