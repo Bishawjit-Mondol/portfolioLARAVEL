@@ -15,17 +15,7 @@ use App\Http\Controllers\TemplateController;
 |
 */
 
-Route::get('/w', function () {
-    return view('welcome');
-});
-
 Route::get('/w2', [Demo::class, 'ui']);
 
 
 Route::get('/me', [TemplateController::class, 'index']);
-
-
-
-// Route::get('/t', function () {
-//     return view('FrontEnd.home');
-// });
