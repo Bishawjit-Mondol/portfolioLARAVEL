@@ -26,48 +26,48 @@
 	  
     <!-- header Started -->
 		<!-- @include('Includes.header'); -->
-        @yield('header');
+        @yield('header')
 	<!-- Header Ended -->
 
     <!-- header Started -->
-		@include('FrontEnd.about');
+		@include('FrontEnd.about')
 	<!-- Header Ended -->
 
     <!-- ftco Started -->
-        @include('FrontEnd.ftco');
+        @include('FrontEnd.ftco')
     <!-- ftco Ended -->
 
     <!-- header Started -->
-		@include('FrontEnd.resume');
+		@include('FrontEnd.resume')
 	<!-- Header Ended -->
 
     <!-- services Started -->
-        @include('FrontEnd.services');
+        @include('FrontEnd.services')
     <!-- services Ended -->
  
     <!-- projects Started -->
-        @include('FrontEnd.projects');
+        @include('FrontEnd.projects')
     <!-- projects Ended -->
 
     <!-- counter Started -->
-        @include('FrontEnd.counter'); 
+        @include('FrontEnd.counter')
     <!-- counter Ended -->
 
 	<!-- Blog Started -->
-		@include('FrontEnd.blog');
+		@include('FrontEnd.blog')
 	<!-- Blog Ended -->
 
     <!-- hireme Started -->
-        @include('FrontEnd.hireme');
+        @include('FrontEnd.hireme')
     <!-- hireme Ended -->
 
     <!-- contact Started -->
-        @include('FrontEnd.contact');
+        @include('FrontEnd.contact')
     <!-- contact Ended -->
 		
     <!-- Footer Started -->
 		<!-- @include('Includes.footer'); -->
-        @yield('footer');
+        @yield('footer')
 	<!-- Footer Ended -->
     
   

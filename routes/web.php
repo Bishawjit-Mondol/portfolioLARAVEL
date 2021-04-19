@@ -17,5 +17,8 @@ use App\Http\Controllers\TemplateController;
 
 Route::get('/w2', [Demo::class, 'ui']);
 
-
 Route::get('/me', [TemplateController::class, 'index']);
+
+Route::get('create', [Demo::class, 'authCreate']);
+
+Route::get('edit', [Demo::class, 'authUpdate']);
